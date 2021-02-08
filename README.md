@@ -183,7 +183,7 @@ PUT -> http://localhost:8080/bag
 
 
 `
-}
+{
     "id" : 2,
     "userId" : 3,
     "products" : [
