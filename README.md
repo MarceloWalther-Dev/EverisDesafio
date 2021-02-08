@@ -103,6 +103,7 @@ PUT -> http://localhost:8080/users
 
 
   {
+  
     "id": 1,
     "name" : "Marcelo Walther da Silva",
     "age" : 33,
@@ -133,11 +134,13 @@ Product:
  POST -> http://localhost:8080/products
  
  
- {
-  
+ 
+ 
+{
    "description":"PlayStation 4",
-   "price": 1000.00
+   "price":1000.00
 }
+ 
  
 
 
@@ -145,9 +148,11 @@ Product:
 `
 
 {
+
    "id" : 3,
     "description":"PlayStation 4",
    "price": 1000.00
+   
 }
 
 
@@ -158,8 +163,10 @@ Product:
 Bag:
 
  POST -> http://localhost:8080/bag
+ 
+ 
+ 
 `
-
 {
     "userId" : 1,
     "products" :[
@@ -173,6 +180,8 @@ Bag:
 `
 
   PUT -> http://localhost:8080/bag
+
+
 `
 
 {
@@ -193,7 +202,9 @@ Bag:
 Payment:
 
   POST -> http://localhost:8080/payment
-  `
+
+
+`
   
   {
     "id" :1,
@@ -204,11 +215,13 @@ Payment:
 }
   
   
-  `
+`
   
   PUT -> http://localhost:8080/payment
   
-  `
+
+
+`
   
   {
     "id" :1,
@@ -219,7 +232,7 @@ Payment:
 }
   
   
-  ` 
+` 
 
 
 ## Autores
