@@ -134,7 +134,7 @@ Product:
  POST -> http://localhost:8080/products
  
  
- 
+ `
  
 {
    "description":"PlayStation 4",
@@ -142,9 +142,11 @@ Product:
 }
  
  
-
+`
 
   PUT -> http://localhost:8080/products 
+  
+  
 `
 
 {
@@ -162,8 +164,7 @@ Product:
 
 Bag:
 
- POST -> http://localhost:8080/bag
- 
+ POST -> http://localhost:8080/bag 
  
  
 `
@@ -180,7 +181,8 @@ Bag:
 `
 
   PUT -> http://localhost:8080/bag
-
+  
+  
 
 `
 
