@@ -101,7 +101,7 @@ Users:
 PUT -> http://localhost:8080/users
 
 
-`
+
   {
     "id": 1,
     "name" : "Marcelo Walther da Silva",
@@ -124,7 +124,7 @@ PUT -> http://localhost:8080/users
     "cpf" : "012345678910",
     "paymentMethods" : "DEBIT_CARD"
 }
-`
+
 
 ------------------------------------
 
