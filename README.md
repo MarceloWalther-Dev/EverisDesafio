@@ -143,12 +143,11 @@ POST -> http://localhost:8080/products
 PUT -> http://localhost:8080/products 
   
 `
+{
    "id" : 3,
-   
-    "description" : "PlayStation 4",
-    
-    "price" : 1000.00
-     
+   "description" : "PlayStation 4",
+   "price" : 1000.00
+ }    
 `  
 
 ------------------------------------
@@ -160,19 +159,14 @@ POST -> http://localhost:8080/bag
  
 
 `
-  
-     "userId" : 1,
-  
-     "products" : [
-  
-        {"productId" : 1, "quantity" : 1},
-        
-        {"productId" : 2, "quantity" : 2},
-        
-        {"productId" : 3, "quantity" : 3}
-        
-    ]
-
+{
+  "userId" : 1,
+  "products" : [
+  {"productId" : 1, "quantity" : 1},
+       {"productId" : 2, "quantity" : 2},
+       {"productId" : 3, "quantity" : 3}
+   ]
+}
 `
 
 
