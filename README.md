@@ -140,7 +140,8 @@ Product:
 `
 {
 
-  "description":"PlayStation 4",   
+  "description":"PlayStation 4",
+  
   "price":1000.00
 }
 
@@ -158,8 +159,11 @@ Product:
 
 `{
    "id" : 3,
+   
     "description":"PlayStation 4",
+    
     "price": 1000.00
+    
  }
 `  
 
@@ -178,6 +182,7 @@ Bag:
   `
 {  
   "userId" : 1,
+  
   "products" :[
   
         {"productId" : 1, "quantity" : 1},
@@ -200,7 +205,9 @@ Bag:
 `
 {
     "id" : 2,
+    
    "userId" : 3,
+   
     "products" :[
         {"productId" : 1, "quantity" : 1},
         {"productId" : 2, "quantity" : 2},
@@ -223,20 +230,20 @@ Payment:
   {
     "id" :1,
     "paymentType" : "MONEY",
+    
     "bag":{
+    
         "id" : 1
     }
-  }
- `
+  }`
+ 
   
 
   
   PUT -> http://localhost:8080/payment
   
 
-
-`
-  {
+`{
     "id" :1,
     
     "paymentType" : "CREDIT",
@@ -245,9 +252,7 @@ Payment:
     
         "id" : 1
     }
-}
-   
-` 
+}` 
 
 
 ## Autores
