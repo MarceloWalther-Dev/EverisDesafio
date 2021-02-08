@@ -192,7 +192,6 @@ PUT -> http://localhost:8080/bag
         {"productId" : 3, "quantity" : 3}
     ]
 }
-
 `
 
 ------------------------------------
