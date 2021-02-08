@@ -96,6 +96,7 @@ Users:
     "cpf" : "111111111",
     "paymentMethods" : "DEBIT_CARD"
 }
+
 `
 
 PUT -> http://localhost:8080/users
@@ -125,6 +126,7 @@ PUT -> http://localhost:8080/users
     "cpf" : "012345678910",
     "paymentMethods" : "DEBIT_CARD"
 }
+
 `
 
 ------------------------------------
@@ -157,7 +159,8 @@ Product:
 
 
 
-`{
+`
+{
    "id" : 3,
    
     "description":"PlayStation 4",
@@ -165,6 +168,7 @@ Product:
     "price": 1000.00
     
  }
+ 
 `  
 
 
@@ -180,6 +184,7 @@ Bag:
  
 
   `
+  
 {  
   "userId" : 1,
   
@@ -193,6 +198,7 @@ Bag:
         
     ]
 }
+
   `
 
 
@@ -214,6 +220,7 @@ Bag:
         {"productId" : 3, "quantity" : 3}
     ]
 }
+
 `
 
 
@@ -227,6 +234,7 @@ Payment:
 
 
   `
+  
   {
     "id" :1,
     "paymentType" : "MONEY",
@@ -235,7 +243,9 @@ Payment:
     
         "id" : 1
     }
-  }`
+  }
+  
+  `
  
   
 
@@ -243,7 +253,9 @@ Payment:
   PUT -> http://localhost:8080/payment
   
 
-`{
+`
+
+{
     "id" :1,
     
     "paymentType" : "CREDIT",
@@ -252,7 +264,9 @@ Payment:
     
         "id" : 1
     }
-}` 
+}
+
+` 
 
 
 ## Autores
