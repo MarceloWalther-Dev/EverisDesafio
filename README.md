@@ -137,11 +137,8 @@ Product:
  `
  
 {
-
-   "description":"PlayStation 4",
-   
-   "price":1000.00
-   
+  "description":"PlayStation 4",   
+  "price":1000.00
 }
  
  
