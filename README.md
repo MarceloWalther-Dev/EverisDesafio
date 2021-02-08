@@ -139,9 +139,9 @@ Product:
  
 
 `
-     "description":"PlayStation 4",
+ "description" : "PlayStation 4",
   
-     "price":1000.00
+ "price" : 1000.00
   
 `
 
@@ -158,9 +158,9 @@ Product:
 `
    "id" : 3,
    
-    "description":"PlayStation 4",
+    "description" : "PlayStation 4",
     
-    "price": 1000.00
+    "price" : 1000.00
      
 `  
 
@@ -180,7 +180,7 @@ Bag:
   
      "userId" : 1,
   
-     "products" :[
+     "products" : [
   
         {"productId" : 1, "quantity" : 1},
         
@@ -204,7 +204,7 @@ Bag:
     
    "userId" : 3,
    
-    "products" :[
+    "products" : [
         {"productId" : 1, "quantity" : 1},
         {"productId" : 2, "quantity" : 2},
         {"productId" : 3, "quantity" : 3}
@@ -225,10 +225,10 @@ Payment:
   `
   
    
-    "id" :1,
+    "id" : 1,
     "paymentType" : "MONEY",
     
-    "bag":{
+    "bag" : {
     
         "id" : 1
     }
@@ -243,11 +243,11 @@ Payment:
 
 `
 
-    "id" :1,
+    "id" : 1,
     
     "paymentType" : "CREDIT",
     
-    "bag":{
+    "bag" : {
     
         "id" : 1
         
