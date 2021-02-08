@@ -132,11 +132,7 @@ PUT -> http://localhost:8080/users
 
 Product:
  
- POST -> http://localhost:8080/products
- 
- 
-
- 
+POST -> http://localhost:8080/products
 
 `
  "description" : "PlayStation 4",
@@ -144,17 +140,8 @@ Product:
  "price" : 1000.00
   
 `
-
- 
- 
-
-
-  PUT -> http://localhost:8080/products 
+PUT -> http://localhost:8080/products 
   
-  
-
-
-
 `
    "id" : 3,
    
@@ -164,19 +151,15 @@ Product:
      
 `  
 
-
-
-
-
 ------------------------------------
 
 Bag:
 
- POST -> http://localhost:8080/bag 
+POST -> http://localhost:8080/bag 
  
  
 
-  `
+`
   
      "userId" : 1,
   
@@ -190,11 +173,11 @@ Bag:
         
     ]
 
-  `
+`
 
 
 
-  PUT -> http://localhost:8080/bag
+PUT -> http://localhost:8080/bag
   
   
 
@@ -212,19 +195,15 @@ Bag:
 
 `
 
-
-
 ------------------------------------
 
 Payment:
 
-  POST -> http://localhost:8080/payment
+POST -> http://localhost:8080/payment
 
 
 
-  `
-  
-   
+`
     "id" : 1,
     "paymentType" : "MONEY",
     
@@ -233,12 +212,12 @@ Payment:
         "id" : 1
     }
     
-  `
+`
  
   
 
   
-  PUT -> http://localhost:8080/payment
+PUT -> http://localhost:8080/payment
   
 
 `
