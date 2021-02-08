@@ -74,8 +74,7 @@ Users:
  JSON: 
   POST -> http://localhost:8080/users
   `
-  {
-   
+    
     "name" : "Marcelo Walther da Silva",
     "age" : 90,
     "address" : [
@@ -95,7 +94,7 @@ Users:
     "email" : "marcelowdsilva@gmail.com",
     "cpf" : "111111111",
     "paymentMethods" : "DEBIT_CARD"
-}
+
 
 `
 
@@ -103,7 +102,7 @@ PUT -> http://localhost:8080/users
 
 
 `
-  {
+  
   
     "id": 1,
     "name" : "Marcelo Walther da Silva",
@@ -125,7 +124,7 @@ PUT -> http://localhost:8080/users
     "email" : "marcelowdsilva@gmail.com",
     "cpf" : "012345678910",
     "paymentMethods" : "DEBIT_CARD"
-}
+
 
 `
 
@@ -201,7 +200,6 @@ Bag:
 
 
 `
-
     "id" : 2,
     
    "userId" : 3,
