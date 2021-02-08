@@ -74,7 +74,7 @@ Users:
  JSON: 
   POST -> http://localhost:8080/users
   `
-    
+   { 
     "name" : "Marcelo Walther da Silva",
     "age" : 90,
     "address" : [
@@ -95,15 +95,14 @@ Users:
     "cpf" : "111111111",
     "paymentMethods" : "DEBIT_CARD"
 
-
+}
 `
 
 PUT -> http://localhost:8080/users
 
 
 `
-  
-  
+ { 
     "id": 1,
     "name" : "Marcelo Walther da Silva",
     "age" : 33,
@@ -124,8 +123,7 @@ PUT -> http://localhost:8080/users
     "email" : "marcelowdsilva@gmail.com",
     "cpf" : "012345678910",
     "paymentMethods" : "DEBIT_CARD"
-
-
+ }
 `
 
 ------------------------------------
@@ -135,10 +133,11 @@ Product:
 POST -> http://localhost:8080/products
 
 `
+{
  "description" : "PlayStation 4",
   
  "price" : 1000.00
-  
+ } 
 `
 PUT -> http://localhost:8080/products 
   
