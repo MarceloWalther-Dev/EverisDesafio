@@ -161,6 +161,7 @@ Product:
 
 `
 {
+
    "id" : 3,
    
     "description":"PlayStation 4",
@@ -186,6 +187,7 @@ Bag:
   `
   
 {  
+
   "userId" : 1,
   
   "products" :[
@@ -210,6 +212,7 @@ Bag:
 
 `
 {
+
     "id" : 2,
     
    "userId" : 3,
@@ -256,6 +259,7 @@ Payment:
 `
 
 {
+
     "id" :1,
     
     "paymentType" : "CREDIT",
@@ -263,6 +267,7 @@ Payment:
     "bag":{
     
         "id" : 1
+        
     }
 }
 
