@@ -205,6 +205,7 @@ POST -> http://localhost:8080/payment
 
 `
     "id" : 1,
+    
     "paymentType" : "MONEY",
     
     "bag" : {
