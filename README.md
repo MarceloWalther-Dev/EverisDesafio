@@ -183,15 +183,15 @@ PUT -> http://localhost:8080/bag
 
 
 `
+}
     "id" : 2,
-    
-   "userId" : 3,
-   
+    "userId" : 3,
     "products" : [
         {"productId" : 1, "quantity" : 1},
         {"productId" : 2, "quantity" : 2},
         {"productId" : 3, "quantity" : 3}
     ]
+}
 
 `
 
@@ -204,12 +204,13 @@ POST -> http://localhost:8080/payment
 
 
 `
-
+{
     "id" : 1,    
     "paymentType" : "MONEY",
         "bag" : {
          "id" : 1
-    }    
+     }
+ }    
 `
  
   
