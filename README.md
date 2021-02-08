@@ -238,7 +238,7 @@ Payment:
 
   `
   
-  {
+  
     "id" :1,
     "paymentType" : "MONEY",
     
@@ -246,7 +246,7 @@ Payment:
     
         "id" : 1
     }
-  }
+  
   
   `
  
