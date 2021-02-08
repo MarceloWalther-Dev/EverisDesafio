@@ -18,12 +18,16 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
 ## Pré - Requisitos e Recomendações
 
-- **JAVA** - Recomendamos sempre a última versão - [Baixar OpenJDK](http://jdk.java.net/archive/)
+- **JAVA** - Recomendo sempre a última versão - [Baixar OpenJDK](http://jdk.java.net/archive/) :computer:
 
-- **PostgreSQL** - Recomendamos o PostgreSQL como Banco de Dados - [Baixar MySQL](https://www.mysql.com/downloads/)
+- **MySQL** - Recomendo o MySQL como Banco de Dados - [Baixar MySQL](https://www.mysql.com/downloads/) :bank:
 
 ------------------------------------
 
 ## Autores
 
 - Marcelo Walther da Silva
+
+## Contato
+
+:mailbox: marcelowdsilva@gmail.com
