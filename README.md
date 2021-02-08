@@ -139,6 +139,7 @@ Product:
 {
 
    "description":"PlayStation 4",
+   
    "price":1000.00
    
 }
@@ -155,6 +156,7 @@ Product:
 
    "id" : 3,
     "description":"PlayStation 4",
+    
    "price": 1000.00
    
 }
