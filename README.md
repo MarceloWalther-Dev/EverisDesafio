@@ -99,6 +99,8 @@ Users:
 `
 
 PUT -> http://localhost:8080/users
+
+
 `
   {
     "id": 1,
@@ -130,14 +132,14 @@ Product:
  
  POST -> http://localhost:8080/products
  
- `
+ 
  {
   
    "description":"PlayStation 4",
    "price": 1000.00
 }
  
- `
+
 
   PUT -> http://localhost:8080/products 
 `
