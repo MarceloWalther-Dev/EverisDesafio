@@ -140,9 +140,9 @@ Product:
  
 
 `
-"description":"PlayStation 4",
+     "description":"PlayStation 4",
   
-  "price":1000.00
+     "price":1000.00
   
 `
 
@@ -178,9 +178,10 @@ Bag:
  
 
   `
-  "userId" : 1,
   
-  "products" :[
+     "userId" : 1,
+  
+     "products" :[
   
         {"productId" : 1, "quantity" : 1},
         
@@ -200,6 +201,7 @@ Bag:
 
 
 `
+
     "id" : 2,
     
    "userId" : 3,
@@ -223,6 +225,7 @@ Payment:
 
 
   `
+  
    
     "id" :1,
     "paymentType" : "MONEY",
@@ -241,6 +244,7 @@ Payment:
   
 
 `
+
     "id" :1,
     
     "paymentType" : "CREDIT",
