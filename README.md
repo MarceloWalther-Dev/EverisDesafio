@@ -103,7 +103,8 @@ Users:
 PUT -> http://localhost:8080/users
 
 
-```{ 
+```yaml
+{ 
     "id": 1,
     "name" : "Marcelo Walther da Silva",
     "age" : 33,
@@ -131,10 +132,11 @@ PUT -> http://localhost:8080/users
 
 Product:
  
-POST -> http://localhost:8080/products
+<h4>POST -> http://localhost:8080/products</h4>
 
 
-```{
+```yaml
+{
 
  "description" : "PlayStation 4",
  "price" : 1000.00
