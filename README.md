@@ -29,45 +29,45 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver<br><br>
 ## Endpoint's
 
 <h2>Users:</h2><br>
-	GET -> http://localhost:8080/users<br><br>
-        POST -> http://localhost:8080/users <br><br>
-        PUT -> http://localhost:8080/users <br><br>
-        DELETE -> http://localhost:8080/users/admin/{id}<br><br>
+	GET -><a href ="#"> http://localhost:8080/users</a><br><br>
+        POST -><a href ="#"> http://localhost:8080/users </a><br><br>
+        PUT -><a href ="#"> http://localhost:8080/users</a> <br><br>
+        DELETE -><a href ="#"> http://localhost:8080/users/admin/{id}</a><br><br>
     
 ------------------------------------    
 <h2>Product:</h2> <br>
   GET -> <a href ="#">http://localhost:8080/products</a> <br><br>
      
-  GET -> http://localhost:8080/products/menor/preco  `filtra por price, retornando uma lista de produtos ordenada por menor price`<br><br>
+  GET -> <a href ="#">http://localhost:8080/products/menor/preco </a> `filtra por price, retornando uma lista de produtos ordenada por menor price`<br><br>
      
-  GET -> http://localhost:8080/products/admin/{id}  	`Para fazer a consulta é necessario ser um usuario admin`<br><br>
+  GET -><a href ="#"> http://localhost:8080/products/admin/{id} </a> 	`Para fazer a consulta é necessario ser um usuario admin`<br><br>
      
-  POST -> http://localhost:8080/products<br><br>
+  POST -> <a href ="#">http://localhost:8080/products</a><br><br>
      
-  PUT -> http://localhost:8080/products <br><br>
+  PUT -><a href ="#"> http://localhost:8080/products</a> <br><br>
      
-  DELETE -> http://localhost:8080/products/admin/{id} `Para deletar um usuario é necessario ser um usuario admin`<br><br>
+  DELETE -><a href ="#"> http://localhost:8080/products/admin/{id}</a> `Para deletar um usuario é necessario ser um usuario admin`<br><br>
      
      
 ------------------------------------
 <h2>Bag:</h2><br>
-   GET -> http://localhost:8080/bag `Retorna uma lista com os pedidos,total da compra, status da sacola, a data que foi realizada o pedido, o usuario com endereço.`<br><br>
+   GET -> <a href ="#">http://localhost:8080/bag `Retorna uma lista com os pedidos,total da compra, status da sacola, a data que foi realizada o pedido, o usuario com endereço.`</a><br><br>
     
-   POST -> http://localhost:8080/bag
+   POST -><a href ="#"> http://localhost:8080/bag</a>
     
-   PUT -> http://localhost:8080/bag
+   PUT -> <a href ="#">http://localhost:8080/bag</a>
     
-   DELETE -> http://localhost:8080/bag/admin/3 `É necessario ser um usuario admin para deletar`
+   DELETE -> <a href ="#">http://localhost:8080/bag/admin/3</a> `É necessario ser um usuario admin para deletar`
     
 ------------------------------------    
 <h2>Payment:</h2><br>
-   GET -> http://localhost:8080/payment
+   GET -> <a href ="#">http://localhost:8080/payment</a>
     
-   POST -> http://localhost:8080/payment
+   POST -> <a href ="#">http://localhost:8080/payment</a>
     
-   PUT -> http://localhost:8080/payment
+   PUT -><a href ="#"> http://localhost:8080/payment</a>
     
-   DELETE -> http://localhost:8080/payment/admin/1 `É necessario ser um usuario admin para deletar` 
+   DELETE -> <a href ="#">http://localhost:8080/payment/admin/1</a> `É necessario ser um usuario admin para deletar` 
     
 ------------------------------------
 
