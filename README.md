@@ -213,13 +213,13 @@ POST -> http://localhost:8080/payment
 PUT -> http://localhost:8080/payment
   
 
-{
+```{
     "id" : 1,
     "paymentType" : "CREDIT",
     "bag" : {
     "id" : 1
     }
-}
+}```
  
 
 
