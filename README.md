@@ -36,18 +36,17 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver<br><br>
     
 ------------------------------------    
 <h2>Product:</h2> <br>
-
-   GET -> http://localhost:8080/products   `Retorna uma lista de Produtos` <br><br>
+  GET -> http://localhost:8080/products  `Retorna uma lista de Produtos` <br><br>
      
-   GET -> http://localhost:8080/products/menor/preco  `filtra por price, retornando uma lista de produtos ordenada por menor price`<br><br>
+  GET -> http://localhost:8080/products/menor/preco  `filtra por price, retornando uma lista de produtos ordenada por menor price`<br><br>
      
-   GET -> http://localhost:8080/products/admin/{id}  	`Para fazer a consulta é necessario ser um usuario admin`<br><br>
+  GET -> http://localhost:8080/products/admin/{id}  	`Para fazer a consulta é necessario ser um usuario admin`<br><br>
      
-   POST -> http://localhost:8080/products<br><br>
+  POST -> http://localhost:8080/products<br><br>
      
-   PUT -> http://localhost:8080/products <br><br>
+  PUT -> http://localhost:8080/products <br><br>
      
-   DELETE -> http://localhost:8080/products/admin/{id} `Para deletar um usuario é necessario ser um usuario admin`<br><br>
+  DELETE -> http://localhost:8080/products/admin/{id} `Para deletar um usuario é necessario ser um usuario admin`<br><br>
      
      
 ------------------------------------
