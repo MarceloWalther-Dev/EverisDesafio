@@ -1,6 +1,6 @@
 ## DESAFIO EVERIS 2021
 <h4 align="center"> 
-	🚧   🚀 ## Concluido 🚀   🚧
+	🚧   🚀 ## Concluido ## 🚀   🚧
 </h4>
 ## CHALLENGE EVERIS
 ### FLORIANOPOLIS - 2021.1
@@ -133,7 +133,7 @@ PUT -> http://localhost:8080/users
 
 Product:
  
-<h4>POST -> http://localhost:8080/products</h4>
+POST -> http://localhost:8080/products
 
 
 ```yaml
