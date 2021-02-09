@@ -29,10 +29,10 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 ## Endpoint's
 
 Users:<br>
-	GET -> http://localhost:8080/users<br>
-        POST -> http://localhost:8080/users <br>
-        PUT -> http://localhost:8080/users <br>
-        DELETE -> http://localhost:8080/users/admin/{id}<br>
+	GET -> http://localhost:8080/users<br><br>
+        POST -> http://localhost:8080/users <br><br>
+        PUT -> http://localhost:8080/users <br><br>
+        DELETE -> http://localhost:8080/users/admin/{id}<br><br>
     
 ------------------------------------    
 Product:<br>
