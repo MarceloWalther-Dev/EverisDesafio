@@ -35,7 +35,7 @@ Users:<br>
         DELETE -> http://localhost:8080/users/admin/{id}<br><br>
     
 ------------------------------------    
-Product:<br>
+<h2>Product:</h2> <br>
    GET -> http://localhost:8080/products  `Retorna uma lista de Produtos`
      
    GET -> http://localhost:8080/products/menor/preco  `filtra por price, retornando uma lista de produtos ordenada por menor price`
