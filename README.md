@@ -78,7 +78,8 @@ Users:
   POST -> http://localhost:8080/users
  
    
- ```{
+ ``` yaml
+ {
    "name":"Marcelo Walther da Silva",
    "age":90,
    "address":[
