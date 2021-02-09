@@ -99,6 +99,7 @@ Users:
    "cpf":"111111111",
    "paymentMethods":"DEBIT_CARD"
 }
+``` 
 
 PUT -> http://localhost:8080/users
 
@@ -125,7 +126,7 @@ PUT -> http://localhost:8080/users
     "cpf" : "012345678910",
     "paymentMethods" : "DEBIT_CARD"
  }
- 
+ ```
 
 
 ------------------------------------
@@ -142,18 +143,20 @@ Product:
  "price" : 1000.00
  
 } 
+```
 
 PUT -> http://localhost:8080/products 
   
 
-```{
+```yaml
+{
 
    "id" : 3,
    "description" : "PlayStation 4",
    "price" : 1000.00
    
 }    
-  
+```  
 
 ------------------------------------
 
@@ -164,7 +167,8 @@ POST -> http://localhost:8080/bag
  
 
 
-```{
+```yaml
+{
 
   "userId" : 1,
   "products" : [
@@ -174,14 +178,15 @@ POST -> http://localhost:8080/bag
    ]
    
 }
-
+```
 
 
 
 PUT -> http://localhost:8080/bag
   
 
-```{
+```yaml
+{
     "id" : 2,
     "userId" : 3,
     "products" : [
@@ -190,7 +195,7 @@ PUT -> http://localhost:8080/bag
         {"productId" : 3, "quantity" : 3}
     ]
 }
-
+```
 
 ------------------------------------
 
@@ -201,14 +206,15 @@ POST -> http://localhost:8080/payment
 
 
 
-```{
+```yaml
+{
     "id" : 1,    
     "paymentType" : "MONEY",
         "bag" : {
          "id" : 1
      }
 }    
-
+```
  
   
 
@@ -216,7 +222,8 @@ POST -> http://localhost:8080/payment
 PUT -> http://localhost:8080/payment
   
 
-```{
+```yaml
+{
     "id" : 1,
     "paymentType" : "CREDIT",
     "bag" : {
@@ -224,6 +231,7 @@ PUT -> http://localhost:8080/payment
     }
 }
  
+ ```
 
 
 ## Autores
