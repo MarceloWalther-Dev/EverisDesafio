@@ -78,7 +78,7 @@ Users:
   POST -> http://localhost:8080/users
  
    
- {
+ ```{
    "name":"Marcelo Walther da Silva",
    "age":90,
    "address":[
@@ -102,7 +102,7 @@ Users:
 PUT -> http://localhost:8080/users
 
 
-{ 
+```{ 
     "id": 1,
     "name" : "Marcelo Walther da Silva",
     "age" : 33,
@@ -133,7 +133,7 @@ Product:
 POST -> http://localhost:8080/products
 
 
-{
+```{
 
  "description" : "PlayStation 4",
  "price" : 1000.00
@@ -143,7 +143,7 @@ POST -> http://localhost:8080/products
 PUT -> http://localhost:8080/products 
   
 
-{
+```{
 
    "id" : 3,
    "description" : "PlayStation 4",
@@ -161,7 +161,7 @@ POST -> http://localhost:8080/bag
  
 
 
-{
+```{
 
   "userId" : 1,
   "products" : [
@@ -178,7 +178,7 @@ POST -> http://localhost:8080/bag
 PUT -> http://localhost:8080/bag
   
 
-{
+```{
     "id" : 2,
     "userId" : 3,
     "products" : [
@@ -198,7 +198,7 @@ POST -> http://localhost:8080/payment
 
 
 
-{
+```{
     "id" : 1,    
     "paymentType" : "MONEY",
         "bag" : {
@@ -219,7 +219,7 @@ PUT -> http://localhost:8080/payment
     "bag" : {
     "id" : 1
     }
-}```
+}
  
 
 
