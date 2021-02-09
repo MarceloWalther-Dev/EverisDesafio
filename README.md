@@ -61,7 +61,7 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver<br><br>
     
 ------------------------------------    
 <h2>Payment:</h2><br>
-   GET -> <a href ="#">http://localhost:8080/payment</a><br>
+   GET -> <a href ="#">http://localhost:8080/payment</a><br><br>
     
    POST -> <a href ="#">http://localhost:8080/payment</a>
     
