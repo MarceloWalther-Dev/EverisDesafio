@@ -36,7 +36,7 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver<br><br>
     
 ------------------------------------    
 <h2>Product:</h2> <br>
-  GET -> http://localhost:8080/products  `Retorna uma lista de Produtos` <br><br>
+  GET -> http://localhost:8080/products <br><br>
      
   GET -> http://localhost:8080/products/menor/preco  `filtra por price, retornando uma lista de produtos ordenada por menor price`<br><br>
      
