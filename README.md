@@ -1,4 +1,4 @@
-<h1 align="center" color="green">  DESAFIO EVERIS 2021</h1>
+<h1 align="center">  DESAFIO EVERIS 2021</h1>
 <h2 align="center"> 
 	🚧   🚀 ## Concluido ## 🚀   🚧
 </h2>
