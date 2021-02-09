@@ -1,7 +1,7 @@
-## DESAFIO EVERIS 2021
-<h4 align="center"> 
+<h1>  DESAFIO EVERIS 2021</h1>
+<h2 align="center"> 
 	🚧   🚀 ## Concluido ## 🚀   🚧
-</h4>
+</h2>
 ## CHALLENGE EVERIS
 ### FLORIANOPOLIS - 2021.1
 Este Projeto é uma api simples sem autenticação, utilizamos Spring Booat como framework, IDE eclipse e MySQL para persistir os dados.
@@ -28,7 +28,7 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 ------------------------------------
 ## Endpoint's
 
-Users:<br>
+<h2>Users:</h2><br>
 	GET -> http://localhost:8080/users<br><br>
         POST -> http://localhost:8080/users <br><br>
         PUT -> http://localhost:8080/users <br><br>
@@ -36,7 +36,7 @@ Users:<br>
     
 ------------------------------------    
 <h2>Product:</h2> <br>
-   GET -> http://localhost:8080/products  `Retorna uma lista de Produtos`
+   GET -> http://localhost:8080/products  `Retorna uma lista de Produtos`<br>
      
    GET -> http://localhost:8080/products/menor/preco  `filtra por price, retornando uma lista de produtos ordenada por menor price`
      
@@ -50,7 +50,7 @@ Users:<br>
      
      
 ------------------------------------
-Bag:<br>
+<h2>Bag:</h2><br>
    GET -> http://localhost:8080/bag `Retorna uma lista com os pedidos,total da compra, status da sacola, a data que foi realizada o pedido, o usuario com endereço.`
     
    POST -> http://localhost:8080/bag
@@ -60,7 +60,7 @@ Bag:<br>
    DELETE -> http://localhost:8080/bag/admin/3 `É necessario ser um usuario admin para deletar`
     
 ------------------------------------    
-Payment:<br>
+<h2>Payment:</h2><br>
    GET -> http://localhost:8080/payment
     
    POST -> http://localhost:8080/payment
@@ -73,7 +73,7 @@ Payment:<br>
 
 ## Exemplos
 
-Users:
+<h2>Users:</h2>
  
  JSON: 
   POST -> http://localhost:8080/users
@@ -132,7 +132,7 @@ PUT -> http://localhost:8080/users
 
 ------------------------------------
 
-Product:
+<h2>Product:</h2>
  
 POST -> http://localhost:8080/products
 
@@ -161,7 +161,7 @@ PUT -> http://localhost:8080/products
 
 ------------------------------------
 
-Bag:
+<h2>Bag:</h2>
 
 POST -> http://localhost:8080/bag 
  
@@ -200,7 +200,7 @@ PUT -> http://localhost:8080/bag
 
 ------------------------------------
 
-Payment:
+<h2>Payment:</h2>
 
 POST -> http://localhost:8080/payment
 
