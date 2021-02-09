@@ -76,36 +76,33 @@ Users:
  
  JSON: 
   POST -> http://localhost:8080/users
-  `
-   
-    "name" : "Marcelo Walther da Silva",
-    "age" : 90,
-    "address" : [
-        {
-            "street" : "Servidao Domingos Manoel Silveira 2",
-            "district" : "Norte",
-            "houseNumber" : "943"            
-        },
  
-        {
-            "street" : "Teste2",
-            "district" : "Rio vermelho",
-            "houseNumber" : "58"
-        }
-    ],
-    "telephone" : "2222222222",
-    "email" : "marcelowdsilva@gmail.com",
-    "cpf" : "111111111",
-    "paymentMethods" : "DEBIT_CARD"
-
-
-`
+   
+ {
+   "name":"Marcelo Walther da Silva",
+   "age":90,
+   "address":[
+      {
+         "street":"Servidao Domingos Manoel Silveira 2",
+         "district":"Norte",
+         "houseNumber":"943"
+      },
+      {
+         "street":"Teste2",
+         "district":"Rio vermelho",
+         "houseNumber":"58"
+      }
+   ],
+   "telephone":"2222222222",
+   "email":"marcelowdsilva@gmail.com",
+   "cpf":"111111111",
+   "paymentMethods":"DEBIT_CARD"
+}
 
 PUT -> http://localhost:8080/users
 
 
-`
- { 
+{ 
     "id": 1,
     "name" : "Marcelo Walther da Silva",
     "age" : 33,
@@ -114,8 +111,7 @@ PUT -> http://localhost:8080/users
             "street" : "Servidao Domingos Manoel Silveira 2",
             "district" : "Rio vermelho",
             "houseNumber" : "43"            
-        },
- 
+        }, 
         {
             "street" : "Servidão Fabriciana de Souza Avila",
             "district" : "vermelho",
@@ -127,7 +123,8 @@ PUT -> http://localhost:8080/users
     "cpf" : "012345678910",
     "paymentMethods" : "DEBIT_CARD"
  }
-`
+ 
+
 
 ------------------------------------
 
@@ -136,23 +133,24 @@ Product:
 POST -> http://localhost:8080/products
 
 
-`
 {
+
  "description" : "PlayStation 4",
-  
  "price" : 1000.00
- } 
-`
+ 
+} 
 
 PUT -> http://localhost:8080/products 
   
-`
+
 {
+
    "id" : 3,
    "description" : "PlayStation 4",
    "price" : 1000.00
- }    
-`  
+   
+}    
+  
 
 ------------------------------------
 
@@ -162,25 +160,24 @@ POST -> http://localhost:8080/bag
  
  
 
-`
+
 {
+
   "userId" : 1,
   "products" : [
   {"productId" : 1, "quantity" : 1},
        {"productId" : 2, "quantity" : 2},
        {"productId" : 3, "quantity" : 3}
    ]
+   
 }
-`
+
 
 
 
 PUT -> http://localhost:8080/bag
   
-  
 
-
-`
 {
     "id" : 2,
     "userId" : 3,
@@ -190,7 +187,7 @@ PUT -> http://localhost:8080/bag
         {"productId" : 3, "quantity" : 3}
     ]
 }
-`
+
 
 ------------------------------------
 
@@ -200,15 +197,15 @@ POST -> http://localhost:8080/payment
 
 
 
-`
+
 {
     "id" : 1,    
     "paymentType" : "MONEY",
         "bag" : {
          "id" : 1
      }
- }    
-`
+}    
+
  
   
 
@@ -216,19 +213,14 @@ POST -> http://localhost:8080/payment
 PUT -> http://localhost:8080/payment
   
 
-`
-
+{
     "id" : 1,
-    
     "paymentType" : "CREDIT",
-    
     "bag" : {
-    
-        "id" : 1
-        
+    "id" : 1
     }
-
-` 
+}
+ 
 
 
 ## Autores
