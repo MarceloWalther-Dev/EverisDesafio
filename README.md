@@ -28,14 +28,14 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 ------------------------------------
 ## Endpoint's
 
-Users:
+Users:<br>
 	GET -> http://localhost:8080/users<br>
         POST -> http://localhost:8080/users <br>
         PUT -> http://localhost:8080/users <br>
         DELETE -> http://localhost:8080/users/admin/{id}<br>
     
 ------------------------------------    
-Product:
+Product:<br>
    GET -> http://localhost:8080/products  `Retorna uma lista de Produtos`
      
    GET -> http://localhost:8080/products/menor/preco  `filtra por price, retornando uma lista de produtos ordenada por menor price`
@@ -50,7 +50,7 @@ Product:
      
      
 ------------------------------------
-Bag:
+Bag:<br>
    GET -> http://localhost:8080/bag `Retorna uma lista com os pedidos,total da compra, status da sacola, a data que foi realizada o pedido, o usuario com endereço.`
     
    POST -> http://localhost:8080/bag
@@ -60,7 +60,7 @@ Bag:
    DELETE -> http://localhost:8080/bag/admin/3 `É necessario ser um usuario admin para deletar`
     
 ------------------------------------    
-Payment:
+Payment:<br>
    GET -> http://localhost:8080/payment
     
    POST -> http://localhost:8080/payment
