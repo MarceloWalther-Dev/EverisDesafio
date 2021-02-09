@@ -11,11 +11,11 @@ Este Projeto é uma api simples sem autenticação, utilizamos Spring Booat como
 
 Após fazer o Download e extrair o arquivo para um local seguro, será necessário fazer algumas alteraçoes no arquivo.
 
-#Conexao com banco
-spring.datasource.url=jdbc:mysql://localhost:3306/challengeeveris?useTimezone=true&serverTimezone=UTC
-spring.datasource.username= `Coloque o seu usuario do banco de dados.`
-spring.datasource.password= `Coloque a senha do seu banco`
-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+#Conexao com banco<br><br>
+spring.datasource.url=jdbc:mysql://localhost:3306/challengeeveris?useTimezone=true&serverTimezone=UTC<br><br>
+spring.datasource.username= `Coloque o seu usuario do banco de dados.`<br><br>
+spring.datasource.password= `Coloque a senha do seu banco`<br><br>
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver<br><br>
 
 ------------------------------------
 
@@ -51,7 +51,7 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
      
 ------------------------------------
 <h2>Bag:</h2><br>
-   GET -> http://localhost:8080/bag `Retorna uma lista com os pedidos,total da compra, status da sacola, a data que foi realizada o pedido, o usuario com endereço.`
+   GET -> http://localhost:8080/bag `Retorna uma lista com os pedidos,total da compra, status da sacola, a data que foi realizada o pedido, o usuario com endereço.`<br><br>
     
    POST -> http://localhost:8080/bag
     
