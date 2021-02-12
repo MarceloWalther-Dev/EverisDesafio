@@ -4,7 +4,7 @@
 </h2>
 ## CHALLENGE EVERIS
 ### FLORIANOPOLIS - 2021.1
-Este Projeto é uma api simples sem autenticação, utilizamos Spring Booat como framework, IDE eclipse e MySQL para persistir os dados.
+Este Projeto é uma api simples sem autenticação, utilizamos Spring Boot como framework, IDE eclipse e MySQL para persistir os dados.
 
 ------------------------------------
 ## Instruções iniciais
